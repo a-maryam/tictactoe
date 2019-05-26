@@ -39,7 +39,10 @@ int main() {
 void gameplay(char * current, char digit) {
 }
 
-int isDone(char board[DIM][DIM]) {
+char*  isDone(char board[DIM][DIM]) {
+  int i, j, k, l;
+  if(board[0][0]&&board[0][1]&&board[0][2]) {
+    if()
 }
 
 
